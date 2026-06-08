@@ -34,7 +34,7 @@ export default function GitHubLogin() {
   }, [isLoading, username, password]);
 
   const handleSocialLogin = (provider) => {
-    alert(`Redirecionando para ${provider}`);
+    alert(`Continuing with ${provider}`);
   };
 
   return (
